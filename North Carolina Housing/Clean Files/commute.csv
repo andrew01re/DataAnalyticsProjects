@@ -1,0 +1,601 @@
+"county","avg_commute_min","method","percent_of_pop"
+"Alamance County",24.2,"Personal Vehicle",94.5
+"Alamance County",24.2,"Work From Home",3.3
+"Alamance County",24.2,"Public Transit",0.2
+"Alamance County",24.2,"Bike",0.1
+"Alamance County",24.2,"Walk",1.5
+"Alamance County",24.2,"Other",0.5
+"Alexander County",24.5,"Personal Vehicle",93.1
+"Alexander County",24.5,"Work From Home",3.6
+"Alexander County",24.5,"Public Transit",0
+"Alexander County",24.5,"Bike",0
+"Alexander County",24.5,"Walk",0.9
+"Alexander County",24.5,"Other",2.4
+"Alleghany County",24.3,"Personal Vehicle",92.1
+"Alleghany County",24.3,"Work From Home",5.2
+"Alleghany County",24.3,"Public Transit",0.4
+"Alleghany County",24.3,"Bike",0.2
+"Alleghany County",24.3,"Walk",2.1
+"Alleghany County",24.3,"Other",0
+"Anson County",26.7,"Personal Vehicle",95.9
+"Anson County",26.7,"Work From Home",1.4
+"Anson County",26.7,"Public Transit",0
+"Anson County",26.7,"Bike",0.4
+"Anson County",26.7,"Walk",2
+"Anson County",26.7,"Other",0.3
+"Ashe County",24.9,"Personal Vehicle",89.9
+"Ashe County",24.9,"Work From Home",6.7
+"Ashe County",24.9,"Public Transit",0.1
+"Ashe County",24.9,"Bike",0
+"Ashe County",24.9,"Walk",1.7
+"Ashe County",24.9,"Other",1.7
+"Avery County",19.9,"Personal Vehicle",89.1
+"Avery County",19.9,"Work From Home",3.9
+"Avery County",19.9,"Public Transit",0.5
+"Avery County",19.9,"Bike",0
+"Avery County",19.9,"Walk",4.4
+"Avery County",19.9,"Other",2.2
+"Beaufort County",23.1,"Personal Vehicle",92.5
+"Beaufort County",23.1,"Work From Home",4.5
+"Beaufort County",23.1,"Public Transit",0.1
+"Beaufort County",23.1,"Bike",0.1
+"Beaufort County",23.1,"Walk",1.7
+"Beaufort County",23.1,"Other",1
+"Bertie County",28,"Personal Vehicle",92.9
+"Bertie County",28,"Work From Home",3.5
+"Bertie County",28,"Public Transit",0.9
+"Bertie County",28,"Bike",0
+"Bertie County",28,"Walk",1.6
+"Bertie County",28,"Other",1.1
+"Bladen County",25.8,"Personal Vehicle",95.3
+"Bladen County",25.8,"Work From Home",2.6
+"Bladen County",25.8,"Public Transit",0.2
+"Bladen County",25.8,"Bike",0.1
+"Bladen County",25.8,"Walk",1.3
+"Bladen County",25.8,"Other",0.5
+"Brunswick County",24.3,"Personal Vehicle",89.6
+"Brunswick County",24.3,"Work From Home",7.5
+"Brunswick County",24.3,"Public Transit",0.4
+"Brunswick County",24.3,"Bike",0.1
+"Brunswick County",24.3,"Walk",0.9
+"Brunswick County",24.3,"Other",1.4
+"Buncombe County",20.5,"Personal Vehicle",85.8
+"Buncombe County",20.5,"Work From Home",10.1
+"Buncombe County",20.5,"Public Transit",0.6
+"Buncombe County",20.5,"Bike",0.3
+"Buncombe County",20.5,"Walk",2.3
+"Buncombe County",20.5,"Other",0.9
+"Burke County",22.3,"Personal Vehicle",94.4
+"Burke County",22.3,"Work From Home",3.5
+"Burke County",22.3,"Public Transit",0.4
+"Burke County",22.3,"Bike",0
+"Burke County",22.3,"Walk",0.7
+"Burke County",22.3,"Other",1.1
+"Cabarrus County",28.2,"Personal Vehicle",91.6
+"Cabarrus County",28.2,"Work From Home",5.9
+"Cabarrus County",28.2,"Public Transit",0.9
+"Cabarrus County",28.2,"Bike",0
+"Cabarrus County",28.2,"Walk",0.5
+"Cabarrus County",28.2,"Other",1.1
+"Caldwell County",25,"Personal Vehicle",93.2
+"Caldwell County",25,"Work From Home",3.4
+"Caldwell County",25,"Public Transit",0
+"Caldwell County",25,"Bike",0.1
+"Caldwell County",25,"Walk",0.8
+"Caldwell County",25,"Other",2.6
+"Camden County",34.1,"Personal Vehicle",93.7
+"Camden County",34.1,"Work From Home",2.4
+"Camden County",34.1,"Public Transit",0
+"Camden County",34.1,"Bike",0
+"Camden County",34.1,"Walk",2.7
+"Camden County",34.1,"Other",1.2
+"Carteret County",23.4,"Personal Vehicle",91.1
+"Carteret County",23.4,"Work From Home",5
+"Carteret County",23.4,"Public Transit",0.5
+"Carteret County",23.4,"Bike",0.6
+"Carteret County",23.4,"Walk",1.3
+"Carteret County",23.4,"Other",1.5
+"Caswell County",31.6,"Personal Vehicle",96.1
+"Caswell County",31.6,"Work From Home",1.8
+"Caswell County",31.6,"Public Transit",0
+"Caswell County",31.6,"Bike",0.4
+"Caswell County",31.6,"Walk",0.6
+"Caswell County",31.6,"Other",1
+"Catawba County",22.6,"Personal Vehicle",92.8
+"Catawba County",22.6,"Work From Home",3.3
+"Catawba County",22.6,"Public Transit",0.3
+"Catawba County",22.6,"Bike",0.1
+"Catawba County",22.6,"Walk",1
+"Catawba County",22.6,"Other",2.6
+"Chatham County",29.8,"Personal Vehicle",88.5
+"Chatham County",29.8,"Work From Home",8.1
+"Chatham County",29.8,"Public Transit",0.7
+"Chatham County",29.8,"Bike",0.1
+"Chatham County",29.8,"Walk",1.9
+"Chatham County",29.8,"Other",0.7
+"Cherokee County",25.7,"Personal Vehicle",88.3
+"Cherokee County",25.7,"Work From Home",7.4
+"Cherokee County",25.7,"Public Transit",0.2
+"Cherokee County",25.7,"Bike",0
+"Cherokee County",25.7,"Walk",2
+"Cherokee County",25.7,"Other",2.2
+"Chowan County",29.5,"Personal Vehicle",89.8
+"Chowan County",29.5,"Work From Home",3.9
+"Chowan County",29.5,"Public Transit",0.5
+"Chowan County",29.5,"Bike",0.5
+"Chowan County",29.5,"Walk",3.9
+"Chowan County",29.5,"Other",1.4
+"Clay County",22.9,"Personal Vehicle",92.5
+"Clay County",22.9,"Work From Home",2.9
+"Clay County",22.9,"Public Transit",0
+"Clay County",22.9,"Bike",0
+"Clay County",22.9,"Walk",2.5
+"Clay County",22.9,"Other",2.1
+"Cleveland County",24.7,"Personal Vehicle",94.4
+"Cleveland County",24.7,"Work From Home",1.8
+"Cleveland County",24.7,"Public Transit",0.3
+"Cleveland County",24.7,"Bike",0
+"Cleveland County",24.7,"Walk",2.3
+"Cleveland County",24.7,"Other",1.1
+"Columbus County",27,"Personal Vehicle",95.7
+"Columbus County",27,"Work From Home",2.3
+"Columbus County",27,"Public Transit",0.2
+"Columbus County",27,"Bike",0.1
+"Columbus County",27,"Walk",1
+"Columbus County",27,"Other",0.7
+"Craven County",20.5,"Personal Vehicle",91.6
+"Craven County",20.5,"Work From Home",3.8
+"Craven County",20.5,"Public Transit",0.3
+"Craven County",20.5,"Bike",0.4
+"Craven County",20.5,"Walk",2.3
+"Craven County",20.5,"Other",1.6
+"Cumberland County",21.4,"Personal Vehicle",88.6
+"Cumberland County",21.4,"Work From Home",3.5
+"Cumberland County",21.4,"Public Transit",0.5
+"Cumberland County",21.4,"Bike",0.1
+"Cumberland County",21.4,"Walk",5.9
+"Cumberland County",21.4,"Other",1.5
+"Currituck County",36.2,"Personal Vehicle",93.6
+"Currituck County",36.2,"Work From Home",4.3
+"Currituck County",36.2,"Public Transit",0
+"Currituck County",36.2,"Bike",0.2
+"Currituck County",36.2,"Walk",1.1
+"Currituck County",36.2,"Other",0.8
+"Dare County",21.1,"Personal Vehicle",86.9
+"Dare County",21.1,"Work From Home",8.3
+"Dare County",21.1,"Public Transit",0
+"Dare County",21.1,"Bike",1
+"Dare County",21.1,"Walk",2.3
+"Dare County",21.1,"Other",1.4
+"Davidson County",25.1,"Personal Vehicle",94.5
+"Davidson County",25.1,"Work From Home",3.2
+"Davidson County",25.1,"Public Transit",0.4
+"Davidson County",25.1,"Bike",0
+"Davidson County",25.1,"Walk",1
+"Davidson County",25.1,"Other",0.9
+"Davie County",26.4,"Personal Vehicle",92.9
+"Davie County",26.4,"Work From Home",4.7
+"Davie County",26.4,"Public Transit",0.2
+"Davie County",26.4,"Bike",0
+"Davie County",26.4,"Walk",1.2
+"Davie County",26.4,"Other",1
+"Duplin County",26.2,"Personal Vehicle",94.3
+"Duplin County",26.2,"Work From Home",2.8
+"Duplin County",26.2,"Public Transit",0.1
+"Duplin County",26.2,"Bike",0.1
+"Duplin County",26.2,"Walk",1.8
+"Duplin County",26.2,"Other",0.9
+"Durham County",22.9,"Personal Vehicle",87
+"Durham County",22.9,"Work From Home",5.7
+"Durham County",22.9,"Public Transit",3.2
+"Durham County",22.9,"Bike",0.6
+"Durham County",22.9,"Walk",2.3
+"Durham County",22.9,"Other",1.2
+"Edgecombe County",22.8,"Personal Vehicle",90.1
+"Edgecombe County",22.8,"Work From Home",2.1
+"Edgecombe County",22.8,"Public Transit",0.2
+"Edgecombe County",22.8,"Bike",0.1
+"Edgecombe County",22.8,"Walk",2.7
+"Edgecombe County",22.8,"Other",4.8
+"Forsyth County",21.9,"Personal Vehicle",91
+"Forsyth County",21.9,"Work From Home",5.1
+"Forsyth County",21.9,"Public Transit",1.1
+"Forsyth County",21.9,"Bike",0.1
+"Forsyth County",21.9,"Walk",1.6
+"Forsyth County",21.9,"Other",0.9
+"Franklin County",33.3,"Personal Vehicle",93.2
+"Franklin County",33.3,"Work From Home",4.7
+"Franklin County",33.3,"Public Transit",0.2
+"Franklin County",33.3,"Bike",0
+"Franklin County",33.3,"Walk",1.3
+"Franklin County",33.3,"Other",0.6
+"Gaston County",26.5,"Personal Vehicle",94.4
+"Gaston County",26.5,"Work From Home",3.2
+"Gaston County",26.5,"Public Transit",0.4
+"Gaston County",26.5,"Bike",0.1
+"Gaston County",26.5,"Walk",0.9
+"Gaston County",26.5,"Other",1
+"Gates County",36.6,"Personal Vehicle",97.2
+"Gates County",36.6,"Work From Home",1.8
+"Gates County",36.6,"Public Transit",0
+"Gates County",36.6,"Bike",0
+"Gates County",36.6,"Walk",0.3
+"Gates County",36.6,"Other",0.7
+"Graham County",28,"Personal Vehicle",94.6
+"Graham County",28,"Work From Home",2.9
+"Graham County",28,"Public Transit",0.1
+"Graham County",28,"Bike",0
+"Graham County",28,"Walk",1.1
+"Graham County",28,"Other",1.3
+"Granville County",28.9,"Personal Vehicle",93
+"Granville County",28.9,"Work From Home",4.8
+"Granville County",28.9,"Public Transit",0.2
+"Granville County",28.9,"Bike",0
+"Granville County",28.9,"Walk",0.9
+"Granville County",28.9,"Other",1.1
+"Greene County",27,"Personal Vehicle",95.8
+"Greene County",27,"Work From Home",1.6
+"Greene County",27,"Public Transit",0.1
+"Greene County",27,"Bike",0
+"Greene County",27,"Walk",2.1
+"Greene County",27,"Other",0.3
+"Guilford County",21.9,"Personal Vehicle",90.5
+"Guilford County",21.9,"Work From Home",5.5
+"Guilford County",21.9,"Public Transit",1.2
+"Guilford County",21.9,"Bike",0.2
+"Guilford County",21.9,"Walk",1.6
+"Guilford County",21.9,"Other",0.9
+"Halifax County",23.8,"Personal Vehicle",94.6
+"Halifax County",23.8,"Work From Home",2.7
+"Halifax County",23.8,"Public Transit",0.1
+"Halifax County",23.8,"Bike",0
+"Halifax County",23.8,"Walk",1.6
+"Halifax County",23.8,"Other",1
+"Harnett County",30.4,"Personal Vehicle",94.5
+"Harnett County",30.4,"Work From Home",3.3
+"Harnett County",30.4,"Public Transit",0.2
+"Harnett County",30.4,"Bike",0
+"Harnett County",30.4,"Walk",1.2
+"Harnett County",30.4,"Other",0.9
+"Haywood County",22.7,"Personal Vehicle",92.7
+"Haywood County",22.7,"Work From Home",3.9
+"Haywood County",22.7,"Public Transit",0.2
+"Haywood County",22.7,"Bike",0.3
+"Haywood County",22.7,"Walk",1.8
+"Haywood County",22.7,"Other",1.1
+"Henderson County",21.8,"Personal Vehicle",90.7
+"Henderson County",21.8,"Work From Home",6.5
+"Henderson County",21.8,"Public Transit",0.2
+"Henderson County",21.8,"Bike",0.1
+"Henderson County",21.8,"Walk",1.3
+"Henderson County",21.8,"Other",1.2
+"Hertford County",26.6,"Personal Vehicle",92.9
+"Hertford County",26.6,"Work From Home",1.8
+"Hertford County",26.6,"Public Transit",0.3
+"Hertford County",26.6,"Bike",0.5
+"Hertford County",26.6,"Walk",3.4
+"Hertford County",26.6,"Other",1.1
+"Hoke County",28.6,"Personal Vehicle",94.4
+"Hoke County",28.6,"Work From Home",2.9
+"Hoke County",28.6,"Public Transit",0.5
+"Hoke County",28.6,"Bike",0
+"Hoke County",28.6,"Walk",0.6
+"Hoke County",28.6,"Other",1.6
+"Hyde County",23.6,"Personal Vehicle",84.4
+"Hyde County",23.6,"Work From Home",9.7
+"Hyde County",23.6,"Public Transit",0.4
+"Hyde County",23.6,"Bike",0.5
+"Hyde County",23.6,"Walk",2.3
+"Hyde County",23.6,"Other",2.7
+"Iredell County",25.8,"Personal Vehicle",91.8
+"Iredell County",25.8,"Work From Home",6.2
+"Iredell County",25.8,"Public Transit",0.3
+"Iredell County",25.8,"Bike",0.1
+"Iredell County",25.8,"Walk",0.7
+"Iredell County",25.8,"Other",1
+"Jackson County",20.2,"Personal Vehicle",90.5
+"Jackson County",20.2,"Work From Home",3.2
+"Jackson County",20.2,"Public Transit",0.2
+"Jackson County",20.2,"Bike",0.1
+"Jackson County",20.2,"Walk",4.8
+"Jackson County",20.2,"Other",1.2
+"Johnston County",30.9,"Personal Vehicle",92.6
+"Johnston County",30.9,"Work From Home",5.9
+"Johnston County",30.9,"Public Transit",0.2
+"Johnston County",30.9,"Bike",0.1
+"Johnston County",30.9,"Walk",0.5
+"Johnston County",30.9,"Other",0.6
+"Jones County",29.4,"Personal Vehicle",93.9
+"Jones County",29.4,"Work From Home",3.4
+"Jones County",29.4,"Public Transit",0.1
+"Jones County",29.4,"Bike",0
+"Jones County",29.4,"Walk",1.7
+"Jones County",29.4,"Other",0.9
+"Lee County",25.5,"Personal Vehicle",95.1
+"Lee County",25.5,"Work From Home",2.9
+"Lee County",25.5,"Public Transit",0.5
+"Lee County",25.5,"Bike",0
+"Lee County",25.5,"Walk",1
+"Lee County",25.5,"Other",0.6
+"Lenoir County",23.4,"Personal Vehicle",94.9
+"Lenoir County",23.4,"Work From Home",1.8
+"Lenoir County",23.4,"Public Transit",0.7
+"Lenoir County",23.4,"Bike",0.4
+"Lenoir County",23.4,"Walk",1.2
+"Lenoir County",23.4,"Other",1.1
+"Lincoln County",30.3,"Personal Vehicle",94.2
+"Lincoln County",30.3,"Work From Home",4.4
+"Lincoln County",30.3,"Public Transit",0.2
+"Lincoln County",30.3,"Bike",0
+"Lincoln County",30.3,"Walk",0.2
+"Lincoln County",30.3,"Other",1
+"McDowell County",24.2,"Personal Vehicle",94.9
+"McDowell County",24.2,"Work From Home",3.6
+"McDowell County",24.2,"Public Transit",0
+"McDowell County",24.2,"Bike",0
+"McDowell County",24.2,"Walk",0.8
+"McDowell County",24.2,"Other",0.7
+"Macon County",21.6,"Personal Vehicle",90.1
+"Macon County",21.6,"Work From Home",4.5
+"Macon County",21.6,"Public Transit",0.2
+"Macon County",21.6,"Bike",0
+"Macon County",21.6,"Walk",2.3
+"Macon County",21.6,"Other",2.8
+"Madison County",28.7,"Personal Vehicle",87.4
+"Madison County",28.7,"Work From Home",9.5
+"Madison County",28.7,"Public Transit",0
+"Madison County",28.7,"Bike",0
+"Madison County",28.7,"Walk",2.2
+"Madison County",28.7,"Other",0.8
+"Martin County",24.5,"Personal Vehicle",94.9
+"Martin County",24.5,"Work From Home",2.8
+"Martin County",24.5,"Public Transit",0.1
+"Martin County",24.5,"Bike",0.2
+"Martin County",24.5,"Walk",1.2
+"Martin County",24.5,"Other",0.7
+"Mecklenburg County",26.4,"Personal Vehicle",85.8
+"Mecklenburg County",26.4,"Work From Home",8.1
+"Mecklenburg County",26.4,"Public Transit",2.9
+"Mecklenburg County",26.4,"Bike",0.1
+"Mecklenburg County",26.4,"Walk",1.9
+"Mecklenburg County",26.4,"Other",1.2
+"Mitchell County",24,"Personal Vehicle",94.8
+"Mitchell County",24,"Work From Home",2.2
+"Mitchell County",24,"Public Transit",0.1
+"Mitchell County",24,"Bike",0
+"Mitchell County",24,"Walk",2.3
+"Mitchell County",24,"Other",0.7
+"Montgomery County",24.6,"Personal Vehicle",96.3
+"Montgomery County",24.6,"Work From Home",1.5
+"Montgomery County",24.6,"Public Transit",0.2
+"Montgomery County",24.6,"Bike",0
+"Montgomery County",24.6,"Walk",0.8
+"Montgomery County",24.6,"Other",1.2
+"Moore County",24.9,"Personal Vehicle",89.6
+"Moore County",24.9,"Work From Home",7.5
+"Moore County",24.9,"Public Transit",0.1
+"Moore County",24.9,"Bike",0
+"Moore County",24.9,"Walk",1.1
+"Moore County",24.9,"Other",1.7
+"Nash County",23,"Personal Vehicle",93.3
+"Nash County",23,"Work From Home",4
+"Nash County",23,"Public Transit",0.5
+"Nash County",23,"Bike",0
+"Nash County",23,"Walk",1.1
+"Nash County",23,"Other",1.1
+"New Hanover County",20.2,"Personal Vehicle",88.6
+"New Hanover County",20.2,"Work From Home",7.6
+"New Hanover County",20.2,"Public Transit",0.5
+"New Hanover County",20.2,"Bike",0.6
+"New Hanover County",20.2,"Walk",1.9
+"New Hanover County",20.2,"Other",0.8
+"Northampton County",26,"Personal Vehicle",94.4
+"Northampton County",26,"Work From Home",3.4
+"Northampton County",26,"Public Transit",0.1
+"Northampton County",26,"Bike",0.1
+"Northampton County",26,"Walk",1.4
+"Northampton County",26,"Other",0.6
+"Onslow County",20.6,"Personal Vehicle",85.2
+"Onslow County",20.6,"Work From Home",4.5
+"Onslow County",20.6,"Public Transit",0.3
+"Onslow County",20.6,"Bike",0.2
+"Onslow County",20.6,"Walk",8.2
+"Onslow County",20.6,"Other",1.5
+"Orange County",23.5,"Personal Vehicle",74.7
+"Orange County",23.5,"Work From Home",9.7
+"Orange County",23.5,"Public Transit",7.1
+"Orange County",23.5,"Bike",1.7
+"Orange County",23.5,"Walk",5.5
+"Orange County",23.5,"Other",1.4
+"Pamlico County",28.1,"Personal Vehicle",91.3
+"Pamlico County",28.1,"Work From Home",5.7
+"Pamlico County",28.1,"Public Transit",0.4
+"Pamlico County",28.1,"Bike",0.4
+"Pamlico County",28.1,"Walk",0.7
+"Pamlico County",28.1,"Other",1.5
+"Pasquotank County",29.5,"Personal Vehicle",92.9
+"Pasquotank County",29.5,"Work From Home",2.4
+"Pasquotank County",29.5,"Public Transit",0.1
+"Pasquotank County",29.5,"Bike",0.3
+"Pasquotank County",29.5,"Walk",2.4
+"Pasquotank County",29.5,"Other",1.8
+"Pender County",30.4,"Personal Vehicle",91.1
+"Pender County",30.4,"Work From Home",7
+"Pender County",30.4,"Public Transit",0.5
+"Pender County",30.4,"Bike",0.1
+"Pender County",30.4,"Walk",0.7
+"Pender County",30.4,"Other",0.7
+"Perquimans County",34.8,"Personal Vehicle",92
+"Perquimans County",34.8,"Work From Home",5.3
+"Perquimans County",34.8,"Public Transit",0
+"Perquimans County",34.8,"Bike",0.1
+"Perquimans County",34.8,"Walk",1.8
+"Perquimans County",34.8,"Other",0.8
+"Person County",30.4,"Personal Vehicle",93.7
+"Person County",30.4,"Work From Home",2.7
+"Person County",30.4,"Public Transit",0.3
+"Person County",30.4,"Bike",0
+"Person County",30.4,"Walk",1.1
+"Person County",30.4,"Other",2.1
+"Pitt County",20.7,"Personal Vehicle",91.8
+"Pitt County",20.7,"Work From Home",4.7
+"Pitt County",20.7,"Public Transit",1.3
+"Pitt County",20.7,"Bike",0.2
+"Pitt County",20.7,"Walk",1.2
+"Pitt County",20.7,"Other",0.7
+"Polk County",27.1,"Personal Vehicle",89.8
+"Polk County",27.1,"Work From Home",5.7
+"Polk County",27.1,"Public Transit",0.1
+"Polk County",27.1,"Bike",0
+"Polk County",27.1,"Walk",1.8
+"Polk County",27.1,"Other",2.7
+"Randolph County",24,"Personal Vehicle",94.6
+"Randolph County",24,"Work From Home",3.3
+"Randolph County",24,"Public Transit",0.3
+"Randolph County",24,"Bike",0
+"Randolph County",24,"Walk",0.7
+"Randolph County",24,"Other",1
+"Richmond County",23.8,"Personal Vehicle",94.2
+"Richmond County",23.8,"Work From Home",2.3
+"Richmond County",23.8,"Public Transit",0.5
+"Richmond County",23.8,"Bike",0
+"Richmond County",23.8,"Walk",2.4
+"Richmond County",23.8,"Other",0.6
+"Robeson County",24.4,"Personal Vehicle",96.5
+"Robeson County",24.4,"Work From Home",1.6
+"Robeson County",24.4,"Public Transit",0.2
+"Robeson County",24.4,"Bike",0
+"Robeson County",24.4,"Walk",0.8
+"Robeson County",24.4,"Other",0.9
+"Rockingham County",26.4,"Personal Vehicle",94.5
+"Rockingham County",26.4,"Work From Home",3.6
+"Rockingham County",26.4,"Public Transit",0.2
+"Rockingham County",26.4,"Bike",0
+"Rockingham County",26.4,"Walk",1
+"Rockingham County",26.4,"Other",0.7
+"Rowan County",25.6,"Personal Vehicle",93.1
+"Rowan County",25.6,"Work From Home",3.8
+"Rowan County",25.6,"Public Transit",0.3
+"Rowan County",25.6,"Bike",0.2
+"Rowan County",25.6,"Walk",1.7
+"Rowan County",25.6,"Other",1
+"Rutherford County",25.6,"Personal Vehicle",93.8
+"Rutherford County",25.6,"Work From Home",3
+"Rutherford County",25.6,"Public Transit",0.2
+"Rutherford County",25.6,"Bike",0.1
+"Rutherford County",25.6,"Walk",1.6
+"Rutherford County",25.6,"Other",1.3
+"Sampson County",26.7,"Personal Vehicle",94.4
+"Sampson County",26.7,"Work From Home",3.4
+"Sampson County",26.7,"Public Transit",0.3
+"Sampson County",26.7,"Bike",0
+"Sampson County",26.7,"Walk",1.1
+"Sampson County",26.7,"Other",0.7
+"Scotland County",23.2,"Personal Vehicle",96.4
+"Scotland County",23.2,"Work From Home",1.3
+"Scotland County",23.2,"Public Transit",0.2
+"Scotland County",23.2,"Bike",0.2
+"Scotland County",23.2,"Walk",1.3
+"Scotland County",23.2,"Other",0.5
+"Stanly County",27,"Personal Vehicle",92.9
+"Stanly County",27,"Work From Home",4.4
+"Stanly County",27,"Public Transit",0.1
+"Stanly County",27,"Bike",0
+"Stanly County",27,"Walk",1.7
+"Stanly County",27,"Other",0.9
+"Stokes County",29.3,"Personal Vehicle",95.8
+"Stokes County",29.3,"Work From Home",3.5
+"Stokes County",29.3,"Public Transit",0.1
+"Stokes County",29.3,"Bike",0
+"Stokes County",29.3,"Walk",0.2
+"Stokes County",29.3,"Other",0.3
+"Surry County",26.3,"Personal Vehicle",95.5
+"Surry County",26.3,"Work From Home",2.4
+"Surry County",26.3,"Public Transit",0.3
+"Surry County",26.3,"Bike",0
+"Surry County",26.3,"Walk",0.9
+"Surry County",26.3,"Other",0.8
+"Swain County",19.3,"Personal Vehicle",91.5
+"Swain County",19.3,"Work From Home",4.4
+"Swain County",19.3,"Public Transit",0.7
+"Swain County",19.3,"Bike",0
+"Swain County",19.3,"Walk",1.4
+"Swain County",19.3,"Other",1.9
+"Transylvania County",23.6,"Personal Vehicle",88.1
+"Transylvania County",23.6,"Work From Home",7.7
+"Transylvania County",23.6,"Public Transit",0.2
+"Transylvania County",23.6,"Bike",1.1
+"Transylvania County",23.6,"Walk",2.6
+"Transylvania County",23.6,"Other",0.3
+"Tyrrell County",30.9,"Personal Vehicle",96.2
+"Tyrrell County",30.9,"Work From Home",1.9
+"Tyrrell County",30.9,"Public Transit",0.4
+"Tyrrell County",30.9,"Bike",0
+"Tyrrell County",30.9,"Walk",1.5
+"Tyrrell County",30.9,"Other",0
+"Union County",29.8,"Personal Vehicle",90.2
+"Union County",29.8,"Work From Home",7.5
+"Union County",29.8,"Public Transit",0.5
+"Union County",29.8,"Bike",0
+"Union County",29.8,"Walk",0.9
+"Union County",29.8,"Other",0.9
+"Vance County",25.2,"Personal Vehicle",94.2
+"Vance County",25.2,"Work From Home",3.9
+"Vance County",25.2,"Public Transit",0.1
+"Vance County",25.2,"Bike",0
+"Vance County",25.2,"Walk",0.9
+"Vance County",25.2,"Other",0.9
+"Wake County",25.5,"Personal Vehicle",87
+"Wake County",25.5,"Work From Home",9.6
+"Wake County",25.5,"Public Transit",1
+"Wake County",25.5,"Bike",0.3
+"Wake County",25.5,"Walk",1.2
+"Wake County",25.5,"Other",1
+"Warren County",28.3,"Personal Vehicle",94.3
+"Warren County",28.3,"Work From Home",2.6
+"Warren County",28.3,"Public Transit",0.2
+"Warren County",28.3,"Bike",0
+"Warren County",28.3,"Walk",1.9
+"Warren County",28.3,"Other",1.1
+"Washington County",24.2,"Personal Vehicle",91.1
+"Washington County",24.2,"Work From Home",2.9
+"Washington County",24.2,"Public Transit",0
+"Washington County",24.2,"Bike",2.4
+"Washington County",24.2,"Walk",2.1
+"Washington County",24.2,"Other",1.4
+"Watauga County",20.5,"Personal Vehicle",83.6
+"Watauga County",20.5,"Work From Home",7.9
+"Watauga County",20.5,"Public Transit",1.7
+"Watauga County",20.5,"Bike",0.3
+"Watauga County",20.5,"Walk",6
+"Watauga County",20.5,"Other",0.5
+"Wayne County",22.2,"Personal Vehicle",94.4
+"Wayne County",22.2,"Work From Home",2.8
+"Wayne County",22.2,"Public Transit",0.5
+"Wayne County",22.2,"Bike",0.1
+"Wayne County",22.2,"Walk",1.7
+"Wayne County",22.2,"Other",0.4
+"Wilkes County",25.3,"Personal Vehicle",95.6
+"Wilkes County",25.3,"Work From Home",3
+"Wilkes County",25.3,"Public Transit",0.1
+"Wilkes County",25.3,"Bike",0
+"Wilkes County",25.3,"Walk",0.6
+"Wilkes County",25.3,"Other",0.6
+"Wilson County",21.6,"Personal Vehicle",93
+"Wilson County",21.6,"Work From Home",2.2
+"Wilson County",21.6,"Public Transit",0.2
+"Wilson County",21.6,"Bike",0.2
+"Wilson County",21.6,"Walk",1.3
+"Wilson County",21.6,"Other",3.1
+"Yadkin County",26.6,"Personal Vehicle",92.9
+"Yadkin County",26.6,"Work From Home",5.1
+"Yadkin County",26.6,"Public Transit",0.1
+"Yadkin County",26.6,"Bike",0.6
+"Yadkin County",26.6,"Walk",0.8
+"Yadkin County",26.6,"Other",0.5
+"Yancey County",28.4,"Personal Vehicle",91.3
+"Yancey County",28.4,"Work From Home",5.5
+"Yancey County",28.4,"Public Transit",0
+"Yancey County",28.4,"Bike",0.3
+"Yancey County",28.4,"Walk",1
+"Yancey County",28.4,"Other",2

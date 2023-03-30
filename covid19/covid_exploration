@@ -1,0 +1,198 @@
+--COVID 19 Data Exploration Project
+
+----------------------Create vaccinations table-----------------------
+CREATE TABLE covid_data.covid_vaccinations AS
+  SELECT
+    iso_code,
+    continent,
+    location,
+    date,
+    total_tests,
+    new_tests,
+    total_tests_per_thousand,
+    new_tests_per_thousand,
+    new_tests_smoothed,
+    new_tests_smoothed_per_thousand,
+    positive_rate,
+    tests_per_case,
+    tests_units	,
+    total_vaccinations,
+    people_vaccinated,
+    people_fully_vaccinated,
+    total_boosters,
+    new_vaccinations,
+    new_vaccinations_smoothed,
+    total_vaccinations_per_hundred,
+    people_vaccinated_per_hundred,
+    people_fully_vaccinated_per_hundred,
+    total_boosters_per_hundred,
+    new_vaccinations_smoothed_per_million,
+    new_people_vaccinated_smoothed,
+    new_people_vaccinated_smoothed_per_hundred,
+    stringency_index,
+    population_density,
+    median_age,
+    aged_65_older,
+    aged_70_older,
+    gdp_per_capita,
+    extreme_poverty,
+    cardiovasc_death_rate,
+    diabetes_prevalence,
+    female_smokers,
+    male_smokers,
+    handwashing_facilities,
+    hospital_beds_per_thousand,
+    life_expectancy,
+    human_development_index,
+    excess_mortality_cumulative_absolute,
+    excess_mortality_cumulative,
+    excess_mortality,
+    excess_mortality_cumulative_per_million
+
+   
+  FROM `portfolio-project-380614.covid_data.owid_data`
+
+---------------------Create deaths table-----------------------------
+ CREATE TABLE covid_data.covid_deaths AS
+  SELECT
+    iso_code,
+    continent,
+    location,
+    date,
+    population,
+    total_cases,
+    new_cases,
+    new_cases_smoothed,
+    total_deaths,
+    new_deaths,
+    new_deaths_smoothed,
+    total_cases_per_million,
+    new_cases_per_million,
+    new_cases_smoothed_per_million,
+    total_deaths_per_million,
+    new_deaths_per_million,
+    new_deaths_smoothed_per_million,
+    reproduction_rate,
+    icu_patients,
+    icu_patients_per_million,
+    hosp_patients,
+    hosp_patients_per_million,
+    weekly_icu_admissions,
+    weekly_icu_admissions_per_million,
+    weekly_hosp_admissions,
+    weekly_hosp_admissions_per_million
+   
+  FROM `portfolio-project-380614.covid_data.owid_data`
+
+
+
+-----------------------Select data to be used------------------------------
+SELECT
+  Location,
+  date,
+  total_cases,
+  new_cases,
+  total_deaths,
+  population
+FROM `portfolio-project-380614.covid_data.covid_deaths` 
+ORDER BY Location, Date
+
+----------- Looking at Total Cases vs Total Deaths in the US----------------
+CREATE OR REPLACE VIEW covid_views.us_cases_deaths AS
+  SELECT
+    Location,
+    date,
+    total_cases,
+    total_deaths,
+    ROUND(100*total_deaths / total_cases,2) AS death_perc
+
+  FROM `portfolio-project-380614.covid_data.covid_deaths` 
+  Where location = "United States"
+  ORDER BY Location, Date
+
+---------------Looking at Total Cases vs Population in the US------------------
+CREATE OR REPLACE VIEW covid_views.us_cases_by_pop AS
+  SELECT
+    Location,
+    date,
+    population,
+    total_cases,
+    100*total_cases/population AS cases_per_pop
+  FROM `portfolio-project-380614.covid_data.covid_deaths` 
+  Where location = "United States"
+  ORDER BY Location, Date
+
+
+--------- Looking at countries with highest number of cases expressed as a percent of the population
+CREATE OR REPLACE VIEW covid_views.country_cases AS
+  SELECT
+    Location,  
+    population,
+    Max(total_cases) as total_cases,
+    Max(100*total_cases/population) AS cases_per_pop_perc
+
+  FROM `portfolio-project-380614.covid_data.covid_deaths` 
+  WHERE continent IS NOT NULL
+  GROUP BY Location, Population
+  ORDER BY cases_per_pop_perc desc
+
+-----------------Looking at countries with highest death counts--------------------
+CREATE OR REPLACE VIEW covid_views.country_deaths AS
+  SELECT
+    Location,  
+    population,
+    Max(total_deaths) as total_deaths,
+    Max(100*total_deaths/population) AS deaths_per_pop
+
+  FROM `portfolio-project-380614.covid_data.covid_deaths` 
+  WHERE continent IS NOT NULL
+  GROUP BY Location, Population
+  ORDER BY total_deaths desc
+
+------------------------Death count by continent---------------------------------
+CREATE OR REPLACE VIEW covid_views.continent_deaths AS
+  SELECT
+    location,
+    MAX(population) as population,
+    Max(total_deaths) as total_deaths,
+    ROUND(Max(total_deaths) / MAX(population),1)*100 AS deaths_by_pop_perc
+  FROM `portfolio-project-380614.covid_data.covid_deaths` 
+  WHERE location in ("Africa", "Asia", "Europe", "North America", "Oceania","South America")
+  GROUP BY location
+  ORDER BY total_deaths desc
+
+------------------- Global deaths and cases -----------------------
+CREATE OR REPLACE VIEW covid_views.global_deaths AS
+  SELECT
+  date,
+    SUM(new_cases) AS new_cases,
+    SUM(total_cases) AS total_cases,
+    SUM(new_deaths) AS new_deaths,
+    SUM(total_deaths) AS total_deaths
+  FROM `portfolio-project-380614.covid_data.covid_deaths`
+  WHERE continent IS NOT NULL
+  GROUP BY date
+  ORDER BY date
+
+
+--------------- Country vaccinations by population --------------------
+
+CREATE OR REPLACE VIEW covid_views.country_vax_pop AS
+  WITH pop_vs_vac AS
+  (
+  SELECT 
+    dea.continent, 
+    dea.location, 
+    dea.date, 
+    dea.population, 
+    vac.new_vaccinations,
+    SUM(vac.new_vaccinations) OVER (Partition by dea.location ORDER BY dea.location, dea.date) AS cum_vax -- cummulative vaccinations, 
+  FROM `portfolio-project-380614.covid_data.covid_deaths` AS dea
+  JOIN `portfolio-project-380614.covid_data.covid_vaccinations` AS vac
+    ON dea.location = vac.location
+    and dea.date = vac.date
+  WHERE dea.continent IS NOT NULL
+  )
+  Select *,
+  (cum_vax / population)*100 AS vax_per_pop_perc -- vaccinations represented as a percentage of population
+  from pop_vs_vac
