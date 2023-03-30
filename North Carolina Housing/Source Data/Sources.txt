@@ -1,0 +1,9 @@
+Home Price Data attributed to Zillow: https://www.zillow.com/research/data/
+
+Other housing metrics attributed to Realtor.com: https://www.realtor.com/research/data/
+
+County population projections attributed to OSBM:
+https://demography.osbm.nc.gov/explore/embed/dataset/county-population-totals/table/?disjunctive.county&disjunctive.region&disjunctive.cog&disjunctive.msa&disjunctive.year&disjunctive.vintage&disjunctive.estimateprojection
+
+All other county profile data attributed to NC Department of Commerce:
+https://accessnc.nccommerce.com/DemographicsReports/
