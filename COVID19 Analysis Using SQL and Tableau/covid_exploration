@@ -86,7 +86,7 @@ CREATE TABLE covid_data.covid_vaccinations AS
 
 
 
------------------------Select data to be used------------------------------
+------------Select data to be used--------------
 SELECT
   Location,
   date,
@@ -110,7 +110,7 @@ CREATE OR REPLACE VIEW covid_views.us_cases_deaths AS
   Where location = "United States"
   ORDER BY Location, Date
 
----------------Looking at Total Cases vs Population in the US------------------
+----------- Looking at Total Cases vs Population in the US--------------------
 CREATE OR REPLACE VIEW covid_views.us_cases_by_pop AS
   SELECT
     Location,
@@ -124,7 +124,7 @@ CREATE OR REPLACE VIEW covid_views.us_cases_by_pop AS
 
 
 --------- Looking at countries with highest number of cases expressed as a percent of the population
-CREATE OR REPLACE VIEW covid_views.country_cases AS
+CREATE OR REPLACE VIEW covid_views.country_total_cases AS
   SELECT
     Location,  
     population,
@@ -136,7 +136,7 @@ CREATE OR REPLACE VIEW covid_views.country_cases AS
   GROUP BY Location, Population
   ORDER BY cases_per_pop_perc desc
 
------------------Looking at countries with highest death counts--------------------
+------------Looking at countries with highest death counts---------------
 CREATE OR REPLACE VIEW covid_views.country_deaths AS
   SELECT
     Location,  
@@ -149,7 +149,7 @@ CREATE OR REPLACE VIEW covid_views.country_deaths AS
   GROUP BY Location, Population
   ORDER BY total_deaths desc
 
-------------------------Death count by continent---------------------------------
+---------------Death count by continent---------------------------
 CREATE OR REPLACE VIEW covid_views.continent_deaths AS
   SELECT
     location,
@@ -161,7 +161,7 @@ CREATE OR REPLACE VIEW covid_views.continent_deaths AS
   GROUP BY location
   ORDER BY total_deaths desc
 
-------------------- Global deaths and cases -----------------------
+--------- Global total deaths and cases -------------------
 CREATE OR REPLACE VIEW covid_views.global_deaths AS
   SELECT
   date,
@@ -174,8 +174,17 @@ CREATE OR REPLACE VIEW covid_views.global_deaths AS
   GROUP BY date
   ORDER BY date
 
+--------------- Country Cases over time-------------------
+CREATE OR REPLACE VIEW covid_views.country_cases AS
+  SELECT
+    Location,  
+    date,
+    total_cases
+      FROM `portfolio-project-380614.covid_data.covid_deaths` 
+  WHERE continent IS NOT NULL
+  ORDER BY location, date
 
---------------- Country vaccinations by population --------------------
+--------- Country vaccinations by population ------------------
 
 CREATE OR REPLACE VIEW covid_views.country_vax_pop AS
   WITH pop_vs_vac AS
@@ -196,3 +205,29 @@ CREATE OR REPLACE VIEW covid_views.country_vax_pop AS
   Select *,
   (cum_vax / population)*100 AS vax_per_pop_perc -- vaccinations represented as a percentage of population
   from pop_vs_vac
+
+------------Country hospital beds----------------------
+CREATE OR REPLACE VIEW covid_views.country_beds AS
+  SELECT 
+    DISTINCT location,
+    hospital_beds_per_thousand
+  FROM `portfolio-project-380614.covid_data.covid_vaccinations`
+
+------------Country hosp and icu admissions--------------
+CREATE OR REPLACE VIEW covid_views.country_hospital AS
+SELECT
+  dea.location,
+  dea.date,
+  dea.population,
+  icu_patients,
+  icu_patients_per_million,
+  hosp_patients,
+  hosp_patients_per_million,
+  weekly_icu_admissions,
+  weekly_icu_admissions_per_million,
+  weekly_hosp_admissions,
+  weekly_hosp_admissions_per_million
+  FROM `portfolio-project-380614.covid_data.covid_deaths` dea
+  WHERE icu_patients IS NOT NULL
+  AND hosp_patients IS NOT NULL
+  ORDER BY 1,2
