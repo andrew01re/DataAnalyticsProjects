@@ -1,5 +1,7 @@
 --COVID 19 Data Exploration Project
-
+-- Objective: Create tables that contain information on cases, deaths, and vaccinations by country and on the global level.
+--            These tables will then be imported to Tableau for visualization.
+--            Original dataset is linked in project folder.
 ----------------------Create vaccinations table-----------------------
 CREATE TABLE covid_data.covid_vaccinations AS
   SELECT
