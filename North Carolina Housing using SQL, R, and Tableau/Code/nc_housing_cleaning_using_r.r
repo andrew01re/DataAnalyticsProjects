@@ -1,6 +1,6 @@
 #Data Cleaning of tables created in SQL 
 
-### Settubg up Environment
+### Setting up Environment
   install.packages("tidyverse")
   install.packages("skimr")
   install.packages("janitor")
